@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dd2020c5-4c4d-48b3-b9ce-e6efadbaf0c4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/java/com/eazybytes/eazyschool/config/ProjectSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/java/com/eazybytes/eazyschool/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/java/com/eazybytes/eazyschool/controller/ContactController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/java/com/eazybytes/eazyschool/controller/DashboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/java/com/eazybytes/eazyschool/controller/HolidaysController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/java/com/eazybytes/eazyschool/controller/HomeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/java/com/eazybytes/eazyschool/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/java/com/eazybytes/eazyschool/handler/CustomAuthenticationFailureHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/java/com/eazybytes/eazyschool/handler/CustomAuthenticationSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/java/com/eazybytes/eazyschool/model/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/java/com/eazybytes/eazyschool/model/Holiday.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/css/style-starter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/images/banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/images/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/images/banner3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/images/bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/images/bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/images/bg3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/images/blog1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/images/blog2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/images/blog3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/images/c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/images/c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/images/c3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/images/c4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/images/c5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/images/c6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/images/icon-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/images/icon-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/images/icon-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/images/icon-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/images/image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/images/img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/images/team1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/images/team2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/images/team3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/images/team4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/images/testi1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/images/testi2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/images/testi3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/js/counter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/js/theme-change.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/webfonts/fa-brands-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/webfonts/fa-brands-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/webfonts/fa-brands-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/webfonts/fa-brands-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/webfonts/fa-brands-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/webfonts/fa-regular-400.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/webfonts/fa-regular-400.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/webfonts/fa-regular-400.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/webfonts/fa-regular-400.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/webfonts/fa-regular-400.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/webfonts/fa-solid-900.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/webfonts/fa-solid-900.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/webfonts/fa-solid-900.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/webfonts/fa-solid-900.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/static/assets/webfonts/fa-solid-900.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/templates/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/templates/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/templates/courses.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/templates/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/templates/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/templates/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/templates/holidays.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../eazyschool/src/main/resources/templates/login.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="2mvAF368H5TRHTvgFRUb8i6uxUH" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/bdh/springsecurity6/springsection7/eazyschool-end",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="EazyschoolApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="eazyschool-end" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.eazybytes.eazyschool.EazyschoolApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.18034.62" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.18034.62" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd2020c5-4c4d-48b3-b9ce-e6efadbaf0c4" name="Changes" comment="" />
+      <created>1727946569092</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727946569092</updated>
+      <workItem from="1727946570322" duration="587000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
