@@ -7,7 +7,7 @@ import security.jpa.domain.auth.service.AuthService;
 
 @RestController
 @RequiredArgsConstructor
-@RequestMapping("/api/auth")
+@RequestMapping("/auth")
 public class AuthController {
 
     private final AuthService authService;

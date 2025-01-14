@@ -18,7 +18,7 @@ import security.jpa.global.common.exception.ExceptionResponse;
 @AllArgsConstructor
 @Getter
 @Setter
-public class ApiResponse<T> {
+public class APIResponse<T> {
 
     @JsonIgnore
     private HttpStatus status;
@@ -33,8 +33,8 @@ public class ApiResponse<T> {
     private ExceptionResponse error;
 
     // Api 성공시 출력
-    public static <T> ApiResponse<T> ok(T result) {
-        return new ApiResponse<>(
+    public static <T> APIResponse<T> ok(T result) {
+        return new APIResponse<>(
                 HttpStatus.OK,
                 true,
                 result,
@@ -43,8 +43,8 @@ public class ApiResponse<T> {
     }
 
     // 에러 발생시의 출력 메시지
-    public static ApiResponse<Object> fail(CommonException e) {
-        return new ApiResponse<>(
+    public static APIResponse<Object> fail(CommonException e) {
+        return new APIResponse<>(
                 e.getErrorCode().getHttpStatus(),
                 false,
                 null,
@@ -53,8 +53,8 @@ public class ApiResponse<T> {
     }
 
     // 400번 에러 처리(프론트엔드)
-    public static ApiResponse<Object> fail(final MissingServletRequestParameterException e) {
-        return new ApiResponse<>(
+    public static APIResponse<Object> fail(final MissingServletRequestParameterException e) {
+        return new APIResponse<>(
                 HttpStatus.BAD_REQUEST,
                 false,
                 null,
@@ -62,8 +62,8 @@ public class ApiResponse<T> {
         );
     }
 
-    public static ApiResponse<Object> fail(final MethodArgumentTypeMismatchException e) {
-        return new ApiResponse<>(
+    public static APIResponse<Object> fail(final MethodArgumentTypeMismatchException e) {
+        return new APIResponse<>(
                 HttpStatus.INTERNAL_SERVER_ERROR,
                 false,
                 null,

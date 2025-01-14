@@ -8,9 +8,5 @@ import org.springframework.context.annotation.Profile;
 @Profile("dev")
 public class DevSecurityConfig {
 
-//    @Bean
-//    SecurityFilterChain defaultSecurityFilterChain(HttpSecurity http) throws Exception {
-//
-//
-//    }
+
 }
