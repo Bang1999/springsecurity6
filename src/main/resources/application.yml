@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: springJPAsecurity
+
+
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+    url: jdbc:mariadb://localhost:3306/security
+    username: test
+    password: test
