@@ -30,8 +30,12 @@ public class MemberDetails implements UserDetails {
         return member.getName();
     }
 
-//    @Override
-//    public String getLoginId() {
-//        return member.getLoginId();
-//    }
+    // Principal 객체에서 꺼내다 쓸 수 있도록 커스텀
+    public String getAge() {
+        return member.getAge();
+    }
+
+    public String getGender() {
+        return member.getGender();
+    }
 }

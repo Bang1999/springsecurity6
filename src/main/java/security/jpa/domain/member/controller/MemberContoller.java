@@ -34,19 +34,15 @@ public class MemberContoller {
 
         String a = memberDetails.getUsername();
         String b = memberDetails.getPassword();
+        String c = memberDetails.getAge();
+        String d = memberDetails.getGender();
 
         Map<String, String> map = new HashMap<>();
         map.put("username", a);
         map.put("password", b);
+        map.put("age", c);
+        map.put("gender", d);
 
         return APIResponse.ok(map);
-    }
-
-    @PostMapping("check")
-    public APIResponse<?> check(@RequestParam String a){
-
-        memberService.check(a);
-
-        return APIResponse.ok("good");
     }
 }

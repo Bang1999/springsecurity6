@@ -32,4 +32,12 @@ public class Member {
 
     @Column(name="MEMBER_ROLE")
     private String role;
+
+    @NotNull
+    @Column(name="MEMBER_AGE")
+    private String age;
+
+    @NotNull
+    @Column(name="MEMBER_GENDER")
+    private String gender;
 }

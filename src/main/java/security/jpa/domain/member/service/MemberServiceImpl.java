@@ -10,13 +10,4 @@ import security.jpa.domain.member.repository.MemberRepository;
 public class MemberServiceImpl implements MemberService{
 
     private final MemberRepository memberRepository;
-
-    @Override
-    public void check(String a) {
-        Member ss = memberRepository.findByLoginId(a).orElseThrow();
-
-        System.out.println("$$$$$$$$$$$$$$$$");
-        System.out.println(ss);
-        System.out.println(ss.getName());
-    }
 }

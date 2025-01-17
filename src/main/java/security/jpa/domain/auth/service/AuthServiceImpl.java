@@ -41,11 +41,14 @@ public class AuthServiceImpl implements AuthService{
 
         String hashPwd = passwordEncoder.encode(signupDTO.getPassword());
 
+        // 회원 정보 저장
         Member member = Member.builder()
                               .name(signupDTO.getName())
                               .loginId(signupDTO.getLoginId())
                               .password(hashPwd)
                               .role("ROLE_USER")
+                              .age(signupDTO.getAge())
+                              .gender(signupDTO.getGender())
                               .build();
 
         memberRepository.save(member);
