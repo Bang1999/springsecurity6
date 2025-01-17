@@ -4,12 +4,17 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.security.core.annotation.AuthenticationPrincipal;
+import org.springframework.web.bind.annotation.*;
 import security.jpa.domain.member.service.MemberService;
 import security.jpa.global.common.response.APIResponse;
+import security.jpa.global.security.service.MemberDetails;
 
+import java.util.HashMap;
+import java.util.Map;
+
+@Slf4j
 @RestController
 @RequiredArgsConstructor
 @RequestMapping("/member")
@@ -24,8 +29,24 @@ public class MemberContoller {
             @ApiResponse(responseCode = "404", description = "NOT FOUND"),
             @ApiResponse(responseCode = "500", description = "INTERNAL SERVER ERROR")
     })
-    @GetMapping("/health")
-    public APIResponse<?> healthCheck(){
-        return APIResponse.ok("You can Do It!!");
+    @GetMapping("/info")
+    public APIResponse<?> healthCheck(@AuthenticationPrincipal MemberDetails memberDetails){
+
+        String a = memberDetails.getUsername();
+        String b = memberDetails.getPassword();
+
+        Map<String, String> map = new HashMap<>();
+        map.put("username", a);
+        map.put("password", b);
+
+        return APIResponse.ok(map);
+    }
+
+    @PostMapping("check")
+    public APIResponse<?> check(@RequestParam String a){
+
+        memberService.check(a);
+
+        return APIResponse.ok("good");
     }
 }
