@@ -1,0 +1,9 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+logging:
+  level:
+    org.springframework.security: WARN
+    java.sql: DEBUG
